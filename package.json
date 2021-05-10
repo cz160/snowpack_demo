@@ -1,0 +1,16 @@
+{
+  "name": "snowpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "snowpack": "^3.3.7"
+  },
+  "scripts": {
+    "start": "npx snowpack dev",
+    "build": "npx snowpack build"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.4.0"
+  }
+}
